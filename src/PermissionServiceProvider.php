@@ -12,6 +12,8 @@ class PermissionServiceProvider extends ServiceProvider
 
     public function register()
     {
+        // load routes api 
+        $this->loadRoutesFrom(__DIR__.'/Routes/api.php');
     }
 
 }
