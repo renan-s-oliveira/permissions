@@ -1,0 +1,22 @@
+{
+    "name": "renan-s-oliveira/permissions",
+    "type": "package",
+    "require": {
+        "php": "^8.0.2",
+        "spatie/laravel-permission": "^5.8",
+        "laravel/framework": "^9.48"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "RenanSOliveira\\Permissions\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Renan de Souza Oliveira",
+            "email": "renanoliveiradev@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
